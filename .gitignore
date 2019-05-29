@@ -1,0 +1,12 @@
+# Config file
+.settings
+.project
+.cproject
+
+# IDF compile output
+examples/*/build/*
+examples/*/*/build/*
+
+# config
+sdkconfig
+sdkconfig.old
