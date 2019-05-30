@@ -1,0 +1,894 @@
+2019-05-29 04:17:19.736:  
+2019-05-29 04:17:19.737:   ets Jan  8 2013,rst cause:2, boot mode:(1,6)
+2019-05-29 04:17:19.742:  
+2019-05-29 04:17:21.801:  
+2019-05-29 04:17:21.802:   ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+2019-05-29 04:17:21.807:  
+2019-05-29 04:17:21.824:  load 0x40100000, len 7196, room 16 
+2019-05-29 04:17:21.849:  tail 12
+2019-05-29 04:17:21.850:  chksum 0x23
+2019-05-29 04:17:21.851:  ho 0 tail 12 room 4
+2019-05-29 04:17:21.851:  load 0x3ffe8408, len 24, room 12 
+2019-05-29 04:17:21.852:  tail 12
+2019-05-29 04:17:21.852:  chksum 0x9a
+2019-05-29 04:17:21.852:  ho 0 tail 12 room 4
+2019-05-29 04:17:21.853:  load 0x3ffe8420, len 3544, room 12 
+2019-05-29 04:17:21.860:  tail 12
+2019-05-29 04:17:21.861:  chksum 0xaa
+2019-05-29 04:17:21.861:  csum 0xaa[0;32mI (65) boot: ESP-IDF v3.1-52-g4329d68 2nd stage bootloader[0m
+2019-05-29 04:17:21.877:  [0;32mI (65) boot: compile time 04:05:17[0m
+2019-05-29 04:17:21.881:  [0;32mI (74) qio_mode: Enabling default flash chip QIO[0m
+2019-05-29 04:17:21.887:  [0;32mI (74) boot: SPI Speed      : 40MHz[0m
+2019-05-29 04:17:21.895:  [0;32mI (79) boot: SPI Mode       : QIO[0m
+2019-05-29 04:17:21.899:  [0;32mI (85) boot: SPI Flash Size : 1MB[0m
+2019-05-29 04:17:21.903:  [0;32mI (91) boot: Partition Table:[0m
+2019-05-29 04:17:21.912:  [0;32mI (97) boot: ## Label            Usage          Type ST Offset   Length[0m
+2019-05-29 04:17:21.920:  [0;32mI (108) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+2019-05-29 04:17:21.933:  [0;32mI (120) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+2019-05-29 04:17:21.946:  [0;32mI (131) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+2019-05-29 04:17:21.959:  [0;32mI (143) boot: End of partition table[0m
+2019-05-29 04:17:21.963:  [0;32mI (150) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x82798 (534424) map[0m
+2019-05-29 04:17:22.143:  [0;32mI (343) esp_image: segment 1: paddr=0x000927b0 vaddr=0x3ffe8000 size=0x00840 (  2112) load[0m
+2019-05-29 04:17:22.156:  [0;32mI (344) esp_image: segment 2: paddr=0x00092ff8 vaddr=0x3ffe8840 size=0x0011c (   284) load[0m
+2019-05-29 04:17:22.168:  [0;32mI (354) esp_image: segment 3: paddr=0x0009311c vaddr=0x40100000 size=0x07694 ( 30356) load[0m
+2019-05-29 04:17:22.196:  [0;32mI (377) boot: Loaded app from partition at offset 0x10000[0m
+2019-05-29 04:17:22.229:  [0;32mI (425) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+2019-05-29 04:17:22.269:  [0;32mI (435) system_api: Base MAC address is not set, read default base MAC addr[0;32mI (655) reset_reason: RTC reset 2 wakeup 0 store 0, reason is 2[0m
+2019-05-29 04:17:22.476:  [0;32mI (655) app main: IDF version: v3.1-52-g4329d68[0m
+2019-05-29 04:17:22.488:  [0;32mI (655) app main: esp-aliyun verison: 822eb00-dirty[0m
+2019-05-29 04:17:22.492:  [0;32mI (665) app main: iotkit-embedded version: 822eb00-dirty[0m
+2019-05-29 04:17:22.501:  [0;32mI (685) app main: Setting WiFi configuration SSID ChinaNet-PEQt...[0m
+2019-05-29 04:17:22.509:  mode : sta(84:f3:eb:0e:f5:0b)
+2019-05-29 04:17:22.514:  add if0
+2019-05-29 04:17:22.518:  [0;32mI (695) app main: wait wifi connect...[0m
+2019-05-29 04:17:24.927:  scandone
+2019-05-29 04:17:25.863:  state: 0 -> 2 (b0)
+2019-05-29 04:17:25.865:  state: 2 -> 3 (0)
+2019-05-29 04:17:25.872:  state: 3 -> 5 (10)
+2019-05-29 04:17:25.874:  add 0
+2019-05-29 04:17:25.874:  aid 4
+2019-05-29 04:17:25.877:  pm open phy_2,type:2 0 0
+2019-05-29 04:17:25.878:  cnt 
+2019-05-29 04:17:25.912:  
+2019-05-29 04:17:25.912:  connected with ChinaNet-PEQt, channel 2
+2019-05-29 04:17:26.914:  [0;32mI (6035) event: sta ip: 192.168.1.9, mask: 255.255.255.0, gw: 192.168.1.1[0m
+2019-05-29 04:17:26.923:  [prt] log level set as: [ 5 ]
+2019-05-29 04:17:26.927:  [1;33m[inf] guider_print_dev_guider_info(320): ....................................................
+2019-05-29 04:17:26.939:  [0m[1;33m[inf] guider_print_dev_guider_info(321):           ProductKey : a1p1GvMMHtR
+2019-05-29 04:17:26.952:  [0m[1;33m[inf] guider_print_dev_guider_info(322):           DeviceName : node001
+2019-05-29 04:17:26.996:  [0m[1;33m[inf] guider_print_dev_guider_info(323):  ):        PartnerID Buf : ,partner_id=espressif
+2019-05-29 04:17:27.006:  [0m[1;33m[inf] guider_print_dev_guider_info(329):         ModuleID Buf : ,module_id=wroom
+2019-05-29 04:17:27.016:  [0m[1;33m[inf] guider_print_dev_guider_info(330):           Guider URL : 
+2019-05-29 04:17:27.024:  [0m[1;33m[inf] guider_print_dev_guider_info(332):       Guider SecMode : 2 (TLS + Direct)
+2019-05-29 04:17:27.038:  [0m[1;33m[inf] guider_print_dev_guider_info(334):     Guider Timestamp : 2524608000000
+2019-05-29 04:17:27.051:  [0m[1;33m[inf] guider_print_dev_guider_info(338): ....................................................
+2019-05-29 04:17:27.067:  [0m[1;33m[inf] guider_print_conn_info(297): -----------------------------------------
+2019-05-29 04:17:27.076:  [0m[1;33m[inf] guider_print_conn_info(298):             Host : a1p1GvMMHtR.iot-as-mqtt.cn-shanghai.aliyuncs.com
+2019-05-29 04:17:27.093:  [0m[1;33m[inf] guider_print_conn_info(299):             Port : 1883
+2019-05-29 04:17:27.102:  [0m[1;33m[inf] guider_print_conn_info(304):         ClientID : a1p1GvMMHtR.node001|securemode=2,timestamp=2524608000000,signmethod=hmacsha1,gw=0,ext=0,partner_id=espressif,module_id=wroom|
+2019-05-29 04:17:27.128:  [0m[1;33m[inf] guider_print_conn_info(306):       TLS PubKey : 0x4022a792 ('-----BEGIN CERTI ...')
+2019-05-29 04:17:27.152:  [0m[1;33m[inf] guider_print_conn_info(309): -----------------------------------------
+2019-05-29 04:17:27.154:  [0m[1;33m[inf] iotx_mc_init(2334): MQTT init success!
+2019-05-29 04:17:27.163:  [0m[0;32mI (6785) in: Creat socket ...[0m
+2019-05-29 04:17:27.665:  [0;32mI (6785) in: OK[0m
+2019-05-29 04:17:27.669:  [0;32mI (6785) in: bind socket ......[0m
+2019-05-29 04:17:27.675:  [0;32mI (6785) in: OK[0m
+2019-05-29 04:17:27.680:  [0;32mI (6785) in: setsockopt SO_REUSEADDR......[0m
+2019-05-29 04:17:27.697:  [0;32mI (6795) in: OK[0m
+2019-05-29 04:17:27.711:  [0;32mI (6795) in: establish tcp connection with server(host=a1p1GvMMHtR.iot-as-mqtt.cn-shanghai.aliyuncs.com port=1883)[0m
+2019-05-29 04:17:27.725:  [0;32mI (6845) in: OK[0m
+2019-05-29 04:17:29.378:  [1;33m[inf] iotx_mc_connect(2724): mqtt connect success!
+2019-05-29 04:17:29.385:  [0m[1;36m[dbg] iotx_mc_subscribe(1994): PERFORM subscribe to '/sys/a1p1GvMMHtR/node001/thing/service/property/set' (msgId=4)
+2019-05-29 04:17:29.424:  [0m[1;36m[dbg] iotx_mc_push_subInfo_to(932): c->list_sub_wait_ack->len:IOTX_MC_SUB_REQUEST_NUM_MAX = 0:256
+2019-05-29 04:17:29.437:  [0m[1;36m[dbg] MQTTSubscribe(585):         Packet Ident : 00000004
+2019-05-29 04:17:29.446:  [0m[1;36m[dbg] MQTTSubscribe(586):                Topic : /sys/a1p1GvMMHtR/node001/thing/service/property/set
+2019-05-29 04:17:29.462:  [0m[1;36m[dbg] MQTTSubscribe(587):                  QoS : 1
+2019-05-29 04:17:29.471:  [0m[1;36m[dbg] MQTTSubscribe(588):        Packet Length : 58
+2019-05-29 04:17:29.479:  [0m[1;33m[inf] iotx_mc_subscribe(2005): mqtt subscribe packet sent,topic = /sys/a1p1GvMMHtR/node001/thing/service/property/set!
+2019-05-29 04:17:29.496:  [0m[1;36m[dbg] iotx_mc_subscribe(1994): PERFORM subscribe to '/sys/a1p1GvMMHtR/node001/thing/service/ClearAlarm' (msgId=5)
+2019-05-29 04:17:29.513:  [0m[1;36m[dbg] iotx_mc_push_subInfo_to(932): c->list_sub_wait_ack->len:IOTX_MC_SUB_REQUEST_NUM_MAX = 1:256
+2019-05-29 04:17:29.528:  [0m[1;36m[dbg] MQTTSubscribe(585):         Packet Ident : 00000005
+2019-05-29 04:17:29.536:  [0m[1;36m[dbg] MQTTSubscribe(586):                Topic : /sys/a1p1GvMMHtR/node001/thing/service/ClearAlarm
+2019-05-29 04:17:29.552:  [0m[1;36m[dbg] MQTTSubscribe(587):                  QoS : 1
+2019-05-29 04:17:29.560:  [0m[1;36m[dbg] MQTTSubscribe(588):        Packet Length : 56
+2019-05-29 04:17:29.570:  [0m[1;33m[inf] iotx_mc_subscribe(2005): mqtt subscribe packet sent,topic = /sys/a1p1GvMMHtR/node001/thing/service/ClearAlarm!
+2019-05-29 04:17:29.587:  [0mmqtt_client|431 :: 
+2019-05-29 04:17:29.590:   packet-id=6, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 1,"CurrentTemperature":1.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:29.617:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:29.620:  [0mevent_handle|092 :: publish success, packet-id=1
+2019-05-29 04:17:29.629:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:29.634:  [0mevent_handle|092 :: publish success, packet-id=2
+2019-05-29 04:17:29.647:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:29.647:  [0mevent_handle|092 :: publish success, packet-id=3
+2019-05-29 04:17:29.655:  [1;36m[dbg] iotx_mc_cycle(1801): SUBACK
+2019-05-29 04:17:29.659:  [0m[1;36m[dbg] iotx_mc_handle_recv_SUBACK(1413):         Return Value : 1
+2019-05-29 04:17:29.668:  [0m[1;36m[dbg] iotx_mc_handle_recv_SUBACK(1414):            Packet ID : 4
+2019-05-29 04:17:29.680:  [0m[1;36m[dbg] iotx_mc_handle_recv_SUBACK(1415):                Count : 1
+2019-05-29 04:17:29.690:  [0m[1;36m[dbg] iotx_mc_handle_recv_SUBACK(1417):      Granted QoS[00] : 1
+2019-05-29 04:17:29.708:  [0m[1;36m[dbg] _iotx_mqtt_event_handle_sub(3016): packet_id = 4, event_type=3
+2019-05-29 04:17:29.711:  [0mevent_handle|068 :: subscribe success, packet-id=4
+2019-05-29 04:17:29.719:  [1;36m[dbg] iotx_mc_cycle(1801): SUBACK
+2019-05-29 04:17:29.723:  [0m[1;36m[dbg] iotx_mc_handle_recv_SUBACK(1413):         Return Value : 1
+2019-05-29 04:17:29.741:  [0m[1;36m[dbg] iotx_mc_handle_recv_SUBACK(1414):            Packet ID : 5
+2019-05-29 04:17:29.744:  [0m[1;36m[dbg] iotx_mc_handle_recv_SUBACK(1415):                Count : 1
+2019-05-29 04:17:29.757:  [0m[1;36m[dbg] iotx_mc_handle_recv_SUBACK(1417):      Granted QoS[00] : 1
+2019-05-29 04:17:29.770:  [0m[1;36m[dbg] _iotx_mqtt_event_handle_sub(3016): packet_id = 5, event_type=3
+2019-05-29 04:17:29.779:  [0mevent_handle|068 :: subscribe success, packet-id=5
+2019-05-29 04:17:29.787:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:29.791:  [0mevent_handle|092 :: publish success, packet-id=6
+2019-05-29 04:17:32.607:  mqtt_client|418 :: 
+2019-05-29 04:17:32.609:  *****************packet-id=7, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:32.627:  
+2019-05-29 04:17:32.628:  mqtt_client|431 :: 
+2019-05-29 04:17:32.631:   packet-id=8, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 2,"CurrentTemperature":2.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:32.688:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:32.693:  [0mevent_handle|092 :: publish success, packet-id=7
+2019-05-29 04:17:32.705:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:32.710:  [0mevent_handle|092 :: publish success, packet-id=8
+2019-05-29 04:17:35.640:  mqtt_client|418 :: 
+2019-05-29 04:17:35.641:  *****************packet-id=9, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:35.661:  
+2019-05-29 04:17:35.662:  mqtt_client|431 :: 
+2019-05-29 04:17:35.665:   packet-id=10, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 3,"CurrentTemperature":3.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:35.686:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:35.690:  [0mevent_handle|092 :: publish success, packet-id=9
+2019-05-29 04:17:35.698:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:35.703:  [0mevent_handle|092 :: publish success, packet-id=10
+2019-05-29 04:17:38.676:  mqtt_client|418 :: 
+2019-05-29 04:17:38.676:  *****************packet-id=11, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:38.693:  
+2019-05-29 04:17:38.693:  mqtt_client|431 :: 
+2019-05-29 04:17:38.702:   packet-id=12, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 4,"CurrentTemperature":4.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:38.730:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:38.762:  [0mevent_handle|092 :: publish success, packet-id=11
+2019-05-29 04:17:38.765:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:38.775:  [0mevent_handlmqtt_client|418 :: 
+2019-05-29 04:17:41.709:  *****************packet-id=13, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:41.726:  
+2019-05-29 04:17:41.726:  mqtt_client|431 :: 
+2019-05-29 04:17:41.730:   packet-id=14, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 5,"CurrentTemperature":5.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:41.756:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:41.760:  [0mevent_handle|092 :: publish success, packet-id=13
+2019-05-29 04:17:41.768:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:41.772:  [0mevent_handle|092 :: publish success, packet-id=14
+2019-05-29 04:17:44.749:  mqtt_client|418 :: 
+2019-05-29 04:17:44.750:  *****************packet-id=15, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:44.766:  
+2019-05-29 04:17:44.766:  mqtt_client|431 :: 
+2019-05-29 04:17:44.772:   packet-id=16, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 6,"CurrentTemperature":6.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:44.796:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:44.800:  [0mevent_handle|092 :: publish success, packet-id=15
+2019-05-29 04:17:44.808:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:44.813:  [0mevent_handle|092 :: publish success, packet-id=16
+2019-05-29 04:17:47.809:  mqtt_client|418 :: 
+2019-05-29 04:17:47.810:  *****************packet-id=17, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 7,"CurrentTemperature":7.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:47.831:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:47.835:  [0mevent_handle|092 :: publish success, packet-id=17
+2019-05-29 04:17:47.844:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:47.849:  [0mevent_handle|092 :: publish success, packet-id=18
+2019-05-29 04:17:50.818:  mqtt_client|418 :: 
+2019-05-29 04:17:50.819:  *****************packet-id=19, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:50.836:  
+2019-05-29 04:17:50.836:  mqtt_client|431 :: 
+2019-05-29 04:17:50.840:   packet-id=20, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 8,"CurrentTemperature":8.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:50.865:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:50.870:  [0mevent_handle|092 :: publish success, packet-id=19
+2019-05-29 04:17:50.878:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:50.883:  [0mevent_handle|092 :: publish success, packet-id=20
+2019-05-29 04:17:53.855:  mqtt_client|418 :: 
+2019-05-29 04:17:53.856:  *****************packet-id=21, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:53.874:  
+2019-05-29 04:17:53.874:  mqtt_client|431 :: 
+2019-05-29 04:17:53.878:   packet-id=22, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 9,"CurrentTemperature":9.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:53.902:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:53.907:  [0mevent_handle|092 :: publish success, packet-id=21
+2019-05-29 04:17:53.915:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:53.920:  [0mevent_handle|092 :: publish success, packet-id=22
+2019-05-29 04:17:56.888:  mqtt_client|418 :: 
+2019-05-29 04:17:56.889:  *****************packet-id=23, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:56.906:  
+2019-05-29 04:17:56.906:  mqtt_client|431 :: 
+2019-05-29 04:17:56.914:   packet-id=24, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":10,"CurrentTemperature":10.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:17:56.936:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:56.941:  [0mevent_handle|092 :: publish success, packet-id=23
+2019-05-29 04:17:56.948:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:17:56.953:  [0mevent_handle|092 :: publish success, packet-id=24
+2019-05-29 04:17:59.933:  mqtt_client|418 :: 
+2019-05-29 04:17:59.934:  *****************packet-id=25, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:17:59.988:  
+2019-05-29 04:17:59.989:  mqtt_client|431 :: 
+2019-05-29 04:17:59.990:   packet-id=26, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":11,e(1791): PUBACK
+2019-05-29 04:17:59.995:  [0mevent_handle|092 :: publish success, packet-id=26
+2019-05-29 04:18:02.969:  mqtt_client|418 :: 
+2019-05-29 04:18:02.970:  *****************packet-id=27, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:02.992:  
+2019-05-29 04:18:02.992:  mqtt_client|431 :: 
+2019-05-29 04:18:02.995:   packet-id=28, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":12,"CurrentTemperature":12.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:03.027:  [1;36m[dbg] iotx_mc_cycle(1ublish success, packet-id=27
+2019-05-29 04:18:03.029:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:03.034:  [0mevent_handle|092 :: publish success, packet-id=28
+2019-05-29 04:18:06.008:  mqtt_client|418 :: 
+2019-05-29 04:18:06.009:  *****************packet-id=29, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:06.026:  
+2019-05-29 04:18:06.026:  mqtt_client|431 :: 
+2019-05-29 04:18:06.030:   packet-id=30, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":13,"CurrentTemperature":13.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:06.055:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:06.060:  [0mevent_handle|092 :: publish success, packet-id=29
+2019-05-29 04:18:06.068:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:06.072:  [0mevent_handle|092 :: publish success, packet-id=30
+2019-05-29 04:18:09.048:  mqtt_client|418 :: 
+2019-05-29 04:18:09.083:  *****************packet-id=31, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":umidity":14,"CurrentTemperature"0,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:09.095:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:09.104:  [0mevent_handle|092 :: publish success, packet-id=31
+2019-05-29 04:18:09.107:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:09.116:  [0mevent_handle|092 :: publish success, packet-id=32
+2019-05-29 04:18:12.089:  mqtt_client|418 :: 
+2019-05-29 04:18:12.169:  *****************packet-id=33, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:12.173:  
+2019-05-29 04:18:12.173:  mqtt_climqtt_client|418 :: 
+2019-05-29 04:18:15.128:  *****************packet-id=35, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:15.147:  
+2019-05-29 04:18:15.147:  mqtt_client|431 :: 
+2019-05-29 04:18:15.149:   packet-id=36, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":16,"CurrentTemperature":16.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:15.175:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:15.179:  [0mevent_handle|092 :: publish success, packet-id=35
+2019-05-29 04:18:15.187:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:15.192:  [0mevent_handle|092 :: publish success, packet-id=36
+2019-05-29 04:18:18.170:  mqtt_client|418 :: 
+2019-05-29 04:18:18.171:  *****************packet-id=37, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:18.186:  
+2019-05-29 04:18:18.186:  mqtt_client|431 :: 
+2019-05-29 04:18:18.190:   packet-id=38, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":17,"CurrentTemperature":17.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:18.216:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:18.221:  [0mevent_handle|092 :: publish success, packet-id=37
+2019-05-29 04:18:18.228:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:18.232:  [0mevent_handle|092 :: publish success, packet-id=38
+2019-05-29 04:18:21.209:  mqtt_client|418 :: 
+2019-05-29 04:18:21.210:  *****************packet-id=39, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:21.229:  
+2019-05-29 04:18:21.230:  mqtt_client|431 :: 
+2019-05-29 04:18:21.232:   packet-id=40, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":18,"CurrentTemperature":18.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:21.255:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:21.259:  [0mevent_handle|092 :: publish success, packet-id=39
+2019-05-29 04:18:21.267:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:21.272:  [0mevent_handle|092 :: publish success, packet-id=40
+2019-05-29 04:18:24.249:  mqtt_client|418 :: 
+2019-05-29 04:18:24.250:  *****************packet-id=41, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:24.272:  
+2019-05-29 04:18:24.272:  mqtt_client|431 :: 
+2019-05-29 04:18:24.276:   packet-id=42, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":19,"CurrentTemperature":19.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:24.295:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:24.299:  [0mevent_handle|092 :: publish success, packet-id=41
+2019-05-29 04:18:24.308:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:24.312:  [0mevent_handle|092 :: publish success, packet-id=42
+2019-05-29 04:18:27.289:  mqtt_client|418 :: 
+2019-05-29 04:18:27.292:  *****************packet-id=43, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:27.331:  
+2019-05-29 04:18:27.332:  mqtt_client|431 :: 
+2019-05-29 04:18:27.332:   packet-id=44, publ}
+2019-05-29 04:18:27.335:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:27.339:  [0mevent_handle|092 :: publish success, packet-id=43
+2019-05-29 04:18:27.348:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:27.352:  [0mevent_handle|092 :: publish success, packet-id=44
+2019-05-29 04:18:30.329:  mqtt_client|418 :: 
+2019-05-29 04:18:30.330:  *****************packet-id=45, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:30.348:  
+2019-05-29 04:18:30.349:  mqtt_client|431 :: 
+2019-05-29 04:18:30.350:   packet-id=46, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":21,"CurrentTemperature":21.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:30.378:  [1;36m[dbg] MQTTKeepalive(319): len = MQTTSerialize_pingreq() = 2
+2019-05-29 04:18:30.384:  [0m[1;33m[inf] iotx_mc_keepalive_sub(2987): send MQTT ping...
+2019-05-29 04:18:30.392:  [0m[1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:30.396:  [0mevent_handle|092 :: publish success, packet-id=45
+2019-05-29 04:18:30.405:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:30.410:  [0mevent_handle|092 :: publish success, packet-id=46
+2019-05-29 04:18:30.418:  [1;33m[inf] iotx_mc_cycle(1828): receive ping response!
+2019-05-29 04:18:30.427:  [0mmqtt_client|418 :: 
+2019-05-29 04:18:33.371:  *****************packet-id=47, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:33.391:  
+2019-05-29 04:18:33.392:  mqtt_client|431 :: 
+2019-05-29 04:18:33.395:   packet-id=48, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":22,"CurrentTemperature":22.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:33.416:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:33.421:  [0mevent_handle|092 :: publish success, packet-id=47
+2019-05-29 04:18:33.467:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:33.468:  [0mevent_handle|092 :: publish success, packet-id=48
+2019-05-29 04:18:36.408:  mqtt_client|418 :: 
+2019-05-29 04:18:36.409:  *****************packet-id=49, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:36.428:  
+2019-05-29 04:18:36.428:  mqtt_client|431 :: 
+2019-05-29 04:18:36.440:   packet-id=50, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":23,"CurrentTemperature":23.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:36.470:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:36.470:  [0mevent_handle|092 :: publish success, packet-iBACK
+2019-05-29 04:18:36.473:  [0mevent_handle|092 :: publish success, packet-id=50
+2019-05-29 04:18:39.449:  mqtt_client|418 :: 
+2019-05-29 04:18:39.451:  *****************packet-id=51, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:39.468:  
+2019-05-29 04:18:39.469:  mqtt_client|431 :: 
+2019-05-29 04:18:39.469:   packet-id=52, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":24,"CurrentTemperature":24.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:39.498:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:39.501:  [0mevent_handle|092 :: publish success, packet-id=51
+2019-05-29 04:18:39.508:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:39.512:  [0mevent_handle|092 :: publish success, packet-id=52
+2019-05-29 04:18:42.487:  mqtt_client|418 :: 
+2019-05-29 04:18:42.487:  *****************packet-id=53, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:42.505:  
+2019-05-29 04:18:42.505:  mqtt_client|431 :: 
+2019-05-29 04:18:42.508:   packet-id=54, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":25,"CurrentTemperature":25.00,"TempThreshold":30},"version":"1.0.0"
+2019-05-29 04:18:42.538:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:42.539:  [0mevent_handle|092 :: publish success, packet-id=53
+2019-05-29 04:18:42.547:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:42.552:  [0mevent_handle|092 :: publish success, packet-id=54
+2019-05-29 04:18:45.534:  mqtt_client|418 :: 
+2019-05-29 04:18:45.570:  *****************packet-id=55, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:45.576:  
+2019-05-29 04:18:45.576:  mqtt_cliarams":{"CurrentHumidity":26,"Cudbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:45.580:  [0mevent_handle|092 :: publish success, packet-id=55
+2019-05-29 04:18:45.586:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:45.593:  [0mevent_handle|092 :: publish success, packet-id=56
+2019-05-29 04:18:48.568:  mqtt_client|418 :: 
+2019-05-29 04:18:48.569:  *****************packet-id=57, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:48.609:  
+2019-05-29 04:18:48.609:  mqtt_client|431 :: 
+2019-05-29 04:18:48.610:   packet-id=58, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":27,"CurrentTemperature":27.00,"Temp36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:48.627:  [0mevent_handle|092 :: publish success, packet-id=57
+2019-05-29 04:18:48.628:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:48.633:  [0mevent_handle|092 :: publish success, packet-id=58
+2019-05-29 04:18:51.607:  mqtt_client|418 :: 
+2019-05-29 04:18:51.608:  *****************packet-id=59, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:51.625:  
+2019-05-29 04:18:51.625:  mqtt_client|431 :: 
+2019-05-29 04:18:51.629:   packet-id=60, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":28,"CurrentTemperature":28.00,"TempThreshold":30},"version":"1.0.0": PUBACK
+2019-05-29 04:18:51.663:  [0mevent_handle|092 :: publish success, packet-id=59
+2019-05-29 04:18:51.668:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:51.672:  [0mevent_handle|092 :: publish success, packet-id=60
+2019-05-29 04:18:54.649:  mqtt_client|418 :: 
+2019-05-29 04:18:54.650:  *****************packet-id=61, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:54.679:  
+2019-05-29 04:18:54.679:  mqtt_client|431 :: 
+2019-05-29 04:18:54.680:   packet-id=62, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":29,"CurrentTemperature":29.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:54.695:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:54.703:  [0mevent_handle|092 :: publish success, packet-id=61
+2019-05-29 04:18:54.707:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:54.712:  [0mevent_handle|092 :: publish success, packet-id=62
+2019-05-29 04:18:57.689:  mqtt_client|418 :: 
+2019-05-29 04:18:57.690:  *****************packet-id=63, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:18:57.707:  
+2019-05-29 04:18:57.707:  mqtt_client|431 :: 
+2019-05-29 04:18:57.709:   packet-id=64, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":30,"CurrentTemperature":30.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:18:57.736:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:57.740:  [0mevent_handle|092 :: publish success, packet-id=63
+2019-05-29 04:18:57.748:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:18:57.753:  [0mevent_handle|092 :: publish success, packet-id=64
+2019-05-29 04:19:00.729:  mqtt_client|431 :: 
+2019-05-29 04:19:00.730:   packet-id=65, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":31,"CurrentTemperature":31.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:00.798:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:00.804:  [0mevent_handle|092 :: publish success, packet-id=65
+2019-05-29 04:19:03.751:  mqtt_client|431 :: 
+2019-05-29 04:19:03.752:   packet-id=66, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":32,"CurrentTemperature":32.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:03.776:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:03.780:  [0mevent_handle|092 :: publish success, packet-id=66
+2019-05-29 04:19:06.770:  mqtt_client|431 :: 
+2019-05-29 04:19:06.770:   packet-id=67, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":33,"CurrentTemperature":33.mqtt_client|431 :: 
+2019-05-29 04:19:09.796:   packet-id=68, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":34,"CurrentTemperature":34.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:09.820:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:09.822:  [0mevent_handle|092 :: publish success, packet-id=68
+2019-05-29 04:19:12.809:  mqtt_client|431 :: 
+2019-05-29 04:19:12.810:   packet-id=69, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":35,"CurrentTemperature":35.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:12.835:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:12.839:  [0mevent_handle|092 :: publish success, packet-id=69
+2019-05-29 04:19:15.830:  mqtt_client|431 :: 
+2019-05-29 04:19:15.834:   packet-id=70, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":36,"CurrentTemperature":36.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:15.857:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:15.860:  [0mevent_handle|092 :: publish success, packet-id=70
+2019-05-29 04:19:18.852:  mqtt_client|431 :: 
+2019-05-29 04:19:18.853:   packet-id=71, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":37,"CurrentTemperature":37.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:18.875:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:18.880:  [0mevent_handle|092 :: publish success, packet-id=71
+2019-05-29 04:19:21.868:  mqtt_client|431 :: 
+2019-05-29 04:19:21.868:   packet-id=72, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":38,"CurrentTemperature":38.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:21.925:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:21.927:  [0mevent_handle|092 :: publish success, mqtt_client|431 :: 
+2019-05-29 04:19:24.889:   packet-id=73, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":39,"CurrentTemperature":39.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:24.915:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:24.923:  [0mevent_handle|092 :: publish success, packet-id=73
+2019-05-29 04:19:27.907:  mqtt_client|431 :: 
+2019-05-29 04:19:27.908:   packet-id=74, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":40,"CurrentTemperature":40.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:27.933:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:27.938:  [0mevent_handle|092 :: publish success, packet-id=74
+2019-05-29 04:19:30.929:  mqtt_client|431 :: 
+2019-05-29 04:19:30.930:   packet-id=75, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":41,"CurrentTemperature":41.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:30.960:  [1;36m[dbg] MQTTKeepalive(319): len = MQTTSerialize_pingreq() = 2
+2019-05-29 04:19:30.975:  [0m[1;33m[inf] iotx_mc_keepalive_sub(2987): send MQTT ping...
+2019-05-29 04:19:30.978:  [0m[1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:30.982:  [0mevent_handle|092 :: publish success, packet-id=75
+2019-05-29 04:19:30.984:  [1;33m[inf] iotx_mc_cycle(1828): receive ping response!
+2019-05-29 04:19:30.995:  [0mmqtt_client|431 :: 
+2019-05-29 04:19:33.952:   packet-id=76, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":42,"CurrentTemperature":42.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:33.976:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:33.980:  [0mevent_handle|092 :: publish success, packet-id=76
+2019-05-29 04:19:36.973:  mqtt_client|431 :: 
+2019-05-29 04:19:36.975:   packet-id=77, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":43,"CurrentTemperature":43.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:36.995:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:36.999:  [0mevent_handle|092 :: publish success, packet-id=77
+2019-05-29 04:19:39.990:  mqtt_client|431 :: 
+2019-05-29 04:19:39.992:   packet-id=78, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":44,"CurrentTemperature":44.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:40.018:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:40.021:  [0mevent_handle|092 :: publish success, packet-id=78
+2019-05-29 04:19:43.010:  mqtt_client|431 :: 
+2019-05-29 04:19:43.012:   packet-id=79, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":45,"CurrentTemperature":45.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:43.036:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:43.040:  [0mevent_handle|092 :: publish success, packet-id=79
+2019-05-29 04:19:46.028:  mqtt_client|431 :: 
+2019-05-29 04:19:46.029:   packet-id=80, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":46,"CurrentTemperature":46.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:46.055:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:46.059:  [0mevent_handle|092 :: publish success, packet-id=80
+2019-05-29 04:19:49.047:  mqtt_client|431 :: 
+2019-05-29 04:19:49.048:   packet-id=81, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":47,"CurrentTemperature":47.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:49.085:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:49.091:  [0mevent_handle|092 :: publish success, packet-id=81
+2019-05-29 04:19:52.070:  mqtt_client|431 :: 
+2019-05-29 04:19:52.072:   packet-id=82, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":48,"CurrentTemperature":48.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:52.097:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:52.100:  [0mevent_handle|092 :: publish success, packet-id=82
+2019-05-29 04:19:55.089:  mqtt_client|431 :: 
+2019-05-29 04:19:55.090:   packet-id=83, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":49,"CurrentTemperature":49.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:55.114:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:55.119:  [0mevent_handle|092 :: publish success, packet-id=83
+2019-05-29 04:19:58.108:  mqtt_client|431 :: 
+2019-05-29 04:19:58.109:   packet-id=84, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":50,"CurrentTemperature":50.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:19:58.138:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:19:58.147:  [0mevent_handle|092 :: publish success, packet-id=84
+2019-05-29 04:20:01.127:  mqtt_client|431 :: 
+2019-05-29 04:20:01.128:   packet-id=85, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":51,"CurrentTemperature":-20.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:01.183:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:01.186:  [0mevenmqtt_client|418 :: 
+2019-05-29 04:20:04.148:  *****************packet-id=86, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:04.163:  
+2019-05-29 04:20:04.164:  mqtt_client|431 :: 
+2019-05-29 04:20:04.172:   packet-id=87, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":52,"CurrentTemperature":-19.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:04.192:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:04.197:  [0mevent_handle|092 :: publish success, packet-id=86
+2019-05-29 04:20:04.204:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:04.209:  [0mevent_handle|092 :: publish success, packet-id=87
+2019-05-29 04:20:07.178:  mqtt_client|418 :: 
+2019-05-29 04:20:07.181:  *****************packet-id=88, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:07.202:  
+2019-05-29 04:20:07.203:  mqtt_client|431 :: 
+2019-05-29 04:20:07.205:   packet-id=89, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":53,"CurrentTemperature":-18.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:07.224:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:07.229:  [0mevent_handle|092 :: publish success, packet-id=88
+2019-05-29 04:20:07.237:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:07.242:  [0mevent_handle|092 :: publish success, packet-id=89
+2019-05-29 04:20:10.218:  mqtt_client|418 :: 
+2019-05-29 04:20:10.221:  *****************packet-id=90, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:10.247:  
+2019-05-29 04:20:10.247:  mqtt_client|431 :: 
+2019-05-29 04:20:10.247:   packet-id=91, publish topic msg={ "method":"thing.event.property.post", "id":"123"ms":{"CurrentHumidity":54,"CurrentTemperature":-17.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:10.267:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:10.270:  [0mevent_handle|092 :: publish success, packet-id=90
+2019-05-29 04:20:10.277:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:10.282:  [0mevent_handle|092 :: publish success, packet-id=91
+2019-05-29 04:20:13.254:  mqtt_client|418 :: 
+2019-05-29 04:20:13.255:  *****************packet-id=92, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:13.273:  
+2019-05-29 04:20:13.273:  mqtt_client|431 :: 
+2019-05-29 04:20:13.277:   packet-id=93, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":55,"CurrentTemperature":-16.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:13.304:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:13.306:  [0mevent_handle|092 :: publish success, packet-id=92
+2019-05-29 04:20:13.314:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:13.318:  [0mevent_handle|092 :: publish success, packet-id=93
+2019-05-29 04:20:16.287:  mqtt_client|418 :: 
+2019-05-29 04:20:16.290:  *****************packet-id=94, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:16.305:  
+2019-05-29 04:20:16.306:  mqtt_client|431 :: 
+2019-05-29 04:20:16.309:   packet-id=95, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":56,"CurrentTemperature":-15.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:16.336:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:16.338:  [0mevent_handle|092 :: publish success, packet-id=94
+2019-05-29 04:20:16.346:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:16.351:  [0mevent_handle|092 :: publish success, packet-id=95
+2019-05-29 04:20:19.327:  mqtt_client|418 :: 
+2019-05-29 04:20:19.328:  *****************packet-id=96, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:19.347:  
+2019-05-29 04:20:19.347:  mqtt_client|431 :: 
+2019-05-29 04:20:19.349:   packet-id=97, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":57,"CurrentTemperature":-14.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:19.374:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:19.378:  [0mevent_handle|092 :: publish success, packet-id=96
+2019-05-29 04:20:19.387:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:19.391:  [0mevent_handle|092 :: publish success, packet-id=97
+2019-05-29 04:20:22.368:  mqtt_client|418 :: 
+2019-05-29 04:20:22.371:  *****************packet-id=98, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:22.385:  
+2019-05-29 04:20:22.385:  mqtt_client|431 :: 
+2019-05-29 04:20:22.390:   packet-id=99, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":58,"CurrentTemperature":-13.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:22.415:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:22.419:  [0mevent_handle|092 :: publish success, packet-id=98
+2019-05-29 04:20:22.427:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:22.431:  [0mevent_handle|092 :: publish success, packet-id=99
+2019-05-29 04:20:25.407:  mqtt_client|418 :: 
+2019-05-29 04:20:25.409:  *****************packet-id=100, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:25.424:  
+2019-05-29 04:20:25.424:  mqtt_client|431 :: 
+2019-05-29 04:20:25.430:   packet-id=101, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":59,"CurrentTemperature":-12.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:25.455:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:25.458:  [0mevent_handle|092 :: publish success, packet-id=100
+2019-05-29 04:20:25.466:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:25.471:  [0mevent_handle|092 :: publish success, packet-id=101
+2019-05-29 04:20:28.448:  mqtt_client|418 :: 
+2019-05-29 04:20:28.450:  *****************packet-id=102, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:28.470:  
+2019-05-29 04:20:28.470:  mqtt_client|431 :: 
+2019-05-29 04:20:28.474:   packet-id=103, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":60,"CurrentTemperature":-11.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:28.494:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:28.499:  [0mevent_handle|092 :: publish success, packet-id=102
+2019-05-29 04:20:28.508:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:28.582:  [0mevent_handle|092 :: publish success, packet-id=103
+2019-05-29 04:20:31.487:  mqtt_client|418 :: 
+2019-05-29 04:20:31.489:  *****************packet-id=104, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:31.517:  
+2019-05-29 04:20:31.518:  mqtt_client|431 :: 
+2019-05-29 04:20:31.520:   packet-id=105, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":61,"CurrentTemperature":-10.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:31.534:  [1;36m[dbg] MQTTKeepalive(319): len = MQTTSerialize_pingreq() = 2
+2019-05-29 04:20:31.540:  [0m[1;33m[inf] iotx_mc_keepalive_sub(2987): send MQTT ping...
+2019-05-29 04:20:31.549:  [0m[1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:31.553:  [0mevent_handle|092 :: publish success, packet-id=104
+2019-05-29 04:20:31.561:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:31.570:  [0mevent_handle|092 :: publish success, packet-id=105
+2019-05-29 04:20:31.583:  [1;33m[inf] iotx_mc_cycle(1828): receive ping response!
+2019-05-29 04:20:31.584:  [0mmqtt_client|418 :: 
+2019-05-29 04:20:34.526:  *****************packet-id=106, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:34.544:  
+2019-05-29 04:20:34.544:  mqtt_client|431 :: 
+2019-05-29 04:20:34.546:   packet-id=107, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":62,"CurrentTemperature":-9.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:34.572:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:34.575:  [0mevent_handle|092 :: publish success, packet-id=106
+2019-05-29 04:20:34.583:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:34.588:  [0mevent_handle|092 :: publish success, packet-id=107
+2019-05-29 04:20:37.557:  mqtt_client|418 :: 
+2019-05-29 04:20:37.560:  *****************packet-id=108, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:37.575:  
+2019-05-29 04:20:37.575:  mqtt_client|431 :: 
+2019-05-29 04:20:37.579:   packet-id=109, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":63,"CurrentTemperature":-8.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:37.606:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:37.609:  [0mevent_handle|092 :: publish success, packet-id=108
+2019-05-29 04:20:37.618:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:37.621:  [0mevent_handle|092 :: publish success, packet-id=109
+2019-05-29 04:20:40.601:  mqtt_client|418 :: 
+2019-05-29 04:20:40.602:  *****************packet-id=110, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:40.612:  
+2019-05-29 04:20:40.612:  mqtt_client|431 :: 
+2019-05-29 04:20:40.615:   packet-id=111, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":64,"CurrentTemperature":-7.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:40.641:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:40.645:  [0mevent_handle|092 :: publish success, packet-id=110
+2019-05-29 04:20:40.653:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:40.658:  [0mevent_handle|092 :: publish success, packet-id=111
+2019-05-29 04:20:43.627:  mqtt_client|418 :: 
+2019-05-29 04:20:43.628:  *****************packet-id=112, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:43.645:  
+2019-05-29 04:20:43.645:  mqtt_client|431 :: 
+2019-05-29 04:20:43.649:   packet-id=113, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":65,"CurrentTemperature":-6.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:43.674:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:43.679:  [0mevent_handle|092 :: publish success, packet-id=112
+2019-05-29 04:20:43.695:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:43.700:  [0mevent_handle|092 :: publish success, packet-id=113
+2019-05-29 04:20:46.669:  mqtt_client|418 :: 
+2019-05-29 04:20:46.670:  *****************packet-id=114, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:46.695:  
+2019-05-29 04:20:46.696:  mqtt_client|431 :: 
+2019-05-29 04:20:46.701:   packet-id=115, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":66,"CurrentTemperature":-5.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:46.713:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:46.719:  [0mevent_handle|092 :: publish success, packet-id=114
+2019-05-29 04:20:46.726:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:46.731:  [0mevent_handle|092 :: publish success, packet-id=115
+2019-05-29 04:20:49.708:  mqtt_client|418 :: 
+2019-05-29 04:20:49.710:  *****************packet-id=116, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:49.729:  
+2019-05-29 04:20:49.729:  mqtt_client|431 :: 
+2019-05-29 04:20:49.730:   packet-id=117, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":67,"CurrentTemperature":-4.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:49.754:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:49.758:  [0mevent_handle|092 :: publish success, packet-id=116
+2019-05-29 04:20:49.766:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:49.771:  [0mevent_handle|092 :: publish success, packet-id=117
+2019-05-29 04:20:52.748:  mqtt_client|418 :: 
+2019-05-29 04:20:52.751:  *****************packet-id=118, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:52.767:  
+2019-05-29 04:20:52.767:  mqtt_client|431 :: 
+2019-05-29 04:20:52.770:   packet-id=119, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":68,"CurrentTemperature":-3.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:52.794:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:52.799:  [0mevent_handle|092 :: publish success, packet-id=118
+2019-05-29 04:20:52.806:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:52.811:  [0mevent_handle|092 :: publish success, packet-id=119
+2019-05-29 04:20:55.788:  mqtt_client|418 :: 
+2019-05-29 04:20:55.791:  *****************packet-id=120, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:55.806:  
+2019-05-29 04:20:55.806:  mqtt_client|431 :: 
+2019-05-29 04:20:55.813:   packet-id=121, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":69,"CurrentTemperature":-2.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:55.836:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:55.839:  [0mevent_handle|092 :: publish success, packet-id=120
+2019-05-29 04:20:55.847:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:55.852:  [0mevent_handle|092 :: publish success, packet-id=121
+2019-05-29 04:20:58.827:  mqtt_client|418 :: 
+2019-05-29 04:20:58.830:  *****************packet-id=122, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:20:58.846:  
+2019-05-29 04:20:58.846:  mqtt_client|431 :: 
+2019-05-29 04:20:58.850:   packet-id=123, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":70,"CurrentTemperature":-1.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:20:58.873:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:58.878:  [0mevent_handle|092 :: publish success, packet-id=122
+2019-05-29 04:20:58.886:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:20:58.890:  [0mevent_handle|092 :: publish success, packet-id=123
+2019-05-29 04:21:01.868:  mqtt_client|418 :: 
+2019-05-29 04:21:01.869:  *****************packet-id=124, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:01.891:  
+2019-05-29 04:21:01.892:  mqtt_client|431 :: 
+2019-05-29 04:21:01.895:   packet-id=125, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":71,"CurrentTemperature":0.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:01.915:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:01.919:  [0mevent_handle|092 :: publish success, packet-id=124
+2019-05-29 04:21:01.928:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:01.931:  [0mevent_handle|092 :: publish success, packet-id=125
+2019-05-29 04:21:04.907:  mqtt_client|418 :: 
+2019-05-29 04:21:04.910:  *****************packet-id=126, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:04.932:  
+2019-05-29 04:21:04.932:  mqtt_client|431 :: 
+2019-05-29 04:21:04.932:   packet-id=127, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":72,"CurrentTemperature":1.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:04.954:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:04.958:  [0mevent_handle|092 :: publish success, packet-id=126
+2019-05-29 04:21:04.966:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:04.971:  [0mevent_handle|092 :: publish success, packet-id=127
+2019-05-29 04:21:07.956:  mqtt_client|418 :: 
+2019-05-29 04:21:07.958:  *****************packet-id=128, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:07.967:  
+2019-05-29 04:21:07.967:  mqtt_client|431 :: 
+2019-05-29 04:21:07.969:   packet-id=129, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":73,"CurrentTemperature":2.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:07.994:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:07.998:  [0mevent_handle|092 :: publish success, packet-id=128
+2019-05-29 04:21:08.006:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:08.012:  [0mevent_handle|092 :: publish success, packet-id=129
+2019-05-29 04:21:10.986:  mqtt_client|418 :: 
+2019-05-29 04:21:10.988:  *****************packet-id=130, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:11.005:  
+2019-05-29 04:21:11.006:  mqtt_client|431 :: 
+2019-05-29 04:21:11.010:   packet-id=131, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":74,"CurrentTemperature":3.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:11.033:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:11.038:  [0mevent_handle|092 :: publish success, packet-id=130
+2019-05-29 04:21:11.046:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:11.051:  [0mevent_handle|092 :: publish success, packet-id=131
+2019-05-29 04:21:14.030:  mqtt_client|418 :: 
+2019-05-29 04:21:14.033:  *****************packet-id=132, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:14.046:  
+2019-05-29 04:21:14.046:  mqtt_client|431 :: 
+2019-05-29 04:21:14.052:   packet-id=133, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":75,"CurrentTemperature":4.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:14.082:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:14.082:  [0mevent_handle|092 :: publish success, packet-id=132
+2019-05-29 04:21:14.087:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:14.092:  [0mevent_handle|092 :: publish success, packet-id=133
+2019-05-29 04:21:17.067:  mqtt_client|418 :: 
+2019-05-29 04:21:17.068:  *****************packet-id=134, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:17.089:  
+2019-05-29 04:21:17.089:  mqtt_client|431 :: 
+2019-05-29 04:21:17.108:   packet-id=135, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":7hold":30},"version":"1.0.0"}
+2019-05-29 04:21:17.115:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:17.119:  [0mevent_handle|092 :: publish success, packet-id=134
+2019-05-29 04:21:17.127:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:17.132:  [0mevent_handle|092 :: publish success, packet-id=135
+2019-05-29 04:21:20.107:  mqtt_client|418 :: 
+2019-05-29 04:21:20.108:  *****************packet-id=136, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:20.125:  
+2019-05-29 04:21:20.125:  mqtt_client|431 :: 
+2019-05-29 04:21:20.130:   packet-id=137, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":77,"CurrentTemperature":6.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:20.153:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:20.159:  [0mevent_handle|092 :: publish success, packet-id=136
+2019-05-29 04:21:20.167:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:20.171:  [0mevent_handle|092 :: publish success, packet-id=137
+2019-05-29 04:21:23.146:  mqtt_client|418 :: 
+2019-05-29 04:21:23.147:  *****************packet-id=138, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:23.165:  
+2019-05-29 04:21:23.165:  mqtt_client|431 :: 
+2019-05-29 04:21:23.169:   packet-id=139, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":78,"CurrentTemperature":7.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:23.192:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:23.197:  [0mevent_handle|092 :: publish success, packet-id=138
+2019-05-29 04:21:23.205:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:23.209:  [0mevent_handle|092 :: publish success, packet-id=139
+2019-05-29 04:21:26.187:  mqtt_client|418 :: 
+2019-05-29 04:21:26.190:  *****************packet-id=140, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:26.206:  
+2019-05-29 04:21:26.206:  mqtt_client|431 :: 
+2019-05-29 04:21:26.214:   packet-id=141, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":79,"CurrentTemperature":8.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:26.233:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:26.238:  [0mevent_handle|092 :: publish success, packet-id=140
+2019-05-29 04:21:26.246:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:26.251:  [0mevent_handle|092 :: publish success, packet-id=141
+2019-05-29 04:21:29.227:  mqtt_client|418 :: 
+2019-05-29 04:21:29.228:  *****************packet-id=142, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:29.246:  
+2019-05-29 04:21:29.246:  mqtt_client|431 :: 
+2019-05-29 04:21:29.250:   packet-id=143, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":80,"CurrentTemperature":9.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:29.274:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:29.278:  [0mevent_handle|092 :: publish success, packet-id=142
+2019-05-29 04:21:29.286:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:29.290:  [0mevent_handle|092 :: publish success, packet-id=143
+2019-05-29 04:21:32.264:  mqtt_client|418 :: 
+2019-05-29 04:21:32.265:  *****************packet-id=144, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:32.281:  
+2019-05-29 04:21:32.281:  mqtt_client|431 :: 
+2019-05-29 04:21:32.286:   packet-id=145, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":81,"CurrentTemperature":10.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:32.311:  [1;36m[dbg] MQTTKeepalive(319): len = MQTTSerialize_pingreq() = 2
+2019-05-29 04:21:32.319:  [0m[1;33m[inf] iotx_mc_keepalive_sub(2987): send MQTT ping...
+2019-05-29 04:21:32.328:  [0m[1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:32.333:  [0mevent_handle|092 :: publish success, packet-id=144
+2019-05-29 04:21:32.341:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:32.350:  [0mevent_handle|092 :: publish success, packet-id=145
+2019-05-29 04:21:32.354:  [1;33m[inf] iotx_mc_cycle(1828): receive ping response!
+2019-05-29 04:21:32.364:  [0mmqtt_client|418 :: 
+2019-05-29 04:21:35.298:  *****************packet-id=146, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:35.314:  
+2019-05-29 04:21:35.315:  mqtt_client|431 :: 
+2019-05-29 04:21:35.321:   packet-id=147, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":82,"CurrentTemperature":11.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:35.341:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:35.346:  [0mevent_handle|092 :: publish success, packet-id=146
+2019-05-29 04:21:35.353:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:35.358:  [0mevent_handle|092 :: publish success, packet-id=147
+2019-05-29 04:21:38.329:  mqtt_client|418 :: 
+2019-05-29 04:21:38.331:  *****************packet-id=148, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:38.347:  
+2019-05-29 04:21:38.348:  mqtt_client|431 :: 
+2019-05-29 04:21:38.350:   packet-id=149, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":83,"CurrentTemperature":12.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:38.373:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:38.380:  [0mevent_handle|092 :: publish success, packet-id=148
+2019-05-29 04:21:38.386:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:38.390:  [0mevent_handle|092 :: publish success, packet-id=149
+2019-05-29 04:21:41.366:  mqtt_client|418 :: 
+2019-05-29 04:21:41.367:  *****************packet-id=150, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:41.412:  
+2019-05-29 04:21:41.412:  mqtt_client|431 :: 
+2019-05-29 04:21:41.413:   packet-id=151, publish topic msg={ "method":"thing.event.property.post", "id":"12cycle(1791): PUBACK
+2019-05-29 04:21:41.417:  [0mevent_handle|092 :: publish success, packet-id=150
+2019-05-29 04:21:41.426:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:41.430:  [0mevent_handle|092 :: publish success, packet-id=151
+2019-05-29 04:21:44.407:  mqtt_client|418 :: 
+2019-05-29 04:21:44.410:  *****************packet-id=152, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:44.427:  
+2019-05-29 04:21:44.428:  mqtt_client|431 :: 
+2019-05-29 04:21:44.430:   packet-id=153, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":85,"CurrentTemperature":14.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:44.453:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:44.458:  [0mevent_handle|092 :: publish success, packet-id=152
+2019-05-29 04:21:44.466:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:44.470:  [0mevent_handle|092 :: publish success, packet-id=153
+2019-05-29 04:21:47.446:  mqtt_client|418 :: 
+2019-05-29 04:21:47.501:  *****************packet-id=154, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id","CurrentTemperature":15.00,"Tem54
+2019-05-29 04:21:47.507:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:47.511:  [0mevent_handle|092 :: publish success, packet-id=155
+2019-05-29 04:21:50.486:  mqtt_client|418 :: 
+2019-05-29 04:21:50.530:  *****************packet-id=156, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:50.534:  
+2019-05-29 04:21:50.534:  mqtt_clcle(1791): PUBACK
+2019-05-29 04:21:50.538:  [0mevent_handle|092 :: publish success, packet-id=156
+2019-05-29 04:21:50.545:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:50.560:  [0mevent_handle|092 :: publish success, packet-id=157
+2019-05-29 04:21:53.527:  mqtt_client|418 :: 
+2019-05-29 04:21:53.529:  *****************packet-id=158, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:53.554:  
+2019-05-29 04:21:53.555:  mqtt_client|431 :: 
+2019-05-29 04:21:53.558:   packet-id=159, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":88,"CurrentTemperature":17.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:53.573:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:53.579:  [0mevent_handle|092 :: publish success, packet-id=158
+2019-05-29 04:21:53.586:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:53.591:  [0mevent_handle|092 :: publish success, packet-id=159
+2019-05-29 04:21:56.562:  mqtt_client|418 :: 
+2019-05-29 04:21:56.563:  *****************packet-id=160, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:56.581:  
+2019-05-29 04:21:56.581:  mqtt_client|431 :: 
+2019-05-29 04:21:56.584:   packet-id=161, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":89,"CurrentTemperature":18.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:56.612:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:56.614:  [0mevent_handle|092 :: publish success, packet-id=160
+2019-05-29 04:21:56.623:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:56.627:  [0mevent_handle|092 :: publish success, packet-id=161
+2019-05-29 04:21:59.599:  mqtt_client|418 :: 
+2019-05-29 04:21:59.601:  *****************packet-id=162, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:21:59.617:  
+2019-05-29 04:21:59.618:  mqtt_client|431 :: 
+2019-05-29 04:21:59.622:   packet-id=163, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":90,"CurrentTemperature":19.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:21:59.646:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:59.649:  [0mevent_handle|092 :: publish success, packet-id=162
+2019-05-29 04:21:59.657:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:21:59.661:  [0mevent_handle|092 :: publish success, packet-id=163
+2019-05-29 04:22:02.636:  mqtt_client|418 :: 
+2019-05-29 04:22:02.637:  *****************packet-id=164, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:02.653:  
+2019-05-29 04:22:02.653:  mqtt_client|431 :: 
+2019-05-29 04:22:02.658:   packet-id=165, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":91,"CurrentTemperature":20.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:02.684:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:02.689:  [0mevent_handle|092 :: publish success, packet-id=164
+2019-05-29 04:22:02.696:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:02.701:  [0mevent_handle|092 :: publish success, packet-id=165
+2019-05-29 04:22:05.679:  mqtt_client|418 :: 
+2019-05-29 04:22:05.709:  *****************packet-id=166, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:05.714:  
+2019-05-29 04:22:05.715:  mqtt_client|431 :: 
+2019-05-29 04:22:05.715:   packet-id=167, puentTemperature":21.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:05.720:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:05.728:  [0mevent_handle|092 :: publish success, packet-id=166
+2019-05-29 04:22:05.737:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:05.741:  [0mevent_handle|092 :: publish success, packet-id=167
+2019-05-29 04:22:08.714:  mqtt_client|418 :: 
+2019-05-29 04:22:08.714:  *****************packet-id=168, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:08.732:  
+2019-05-29 04:22:08.733:  mqtt_client|431 :: 
+2019-05-29 04:22:08.736:   packet-id=169, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":93,"CurrentTemperature":22.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:08.761:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:08.766:  [0mevent_handle|092 :: publish success, packet-id=168
+2019-05-29 04:22:08.773:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:08.780:  [0mevent_handle|092 :: publish success, packet-id=169
+2019-05-29 04:22:11.745:  mqtt_client|418 :: 
+2019-05-29 04:22:11.746:  *****************packet-id=170, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:11.763:  
+2019-05-29 04:22:11.764:  mqtt_client|431 :: 
+2019-05-29 04:22:11.767:   packet-id=171, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":94,"CurrentTemperature":23.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:11.793:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:11.797:  [0mevent_handle|092 :: publish success, packet-id=170
+2019-05-29 04:22:11.807:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:11.811:  [0mevent_handle|092 :: publish success, packet-id=171
+2019-05-29 04:22:14.785:  mqtt_client|418 :: 
+2019-05-29 04:22:14.786:  *****************packet-id=172, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:14.803:  
+2019-05-29 04:22:14.803:  mqtt_client|431 :: 
+2019-05-29 04:22:14.807:   packet-id=173, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":95,"CurrentTemperature":24.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:14.832:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:14.837:  [0mevent_handle|092 :: publish success, packet-id=172
+2019-05-29 04:22:14.845:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:14.850:  [0mevent_handle|092 :: publish success, packet-id=173
+2019-05-29 04:22:17.824:  mqtt_client|418 :: 
+2019-05-29 04:22:17.825:  *****************packet-id=174, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:17.843:  
+2019-05-29 04:22:17.843:  mqtt_client|431 :: 
+2019-05-29 04:22:17.846:   packet-id=175, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":96,"CurrentTemperature":25.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:17.873:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:17.877:  [0mevent_handle|092 :: publish success, packet-id=174
+2019-05-29 04:22:17.885:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:17.889:  [0mevent_handle|092 :: publish success, packet-id=175
+2019-05-29 04:22:20.866:  mqtt_client|418 :: 
+2019-05-29 04:22:20.866:  *****************packet-id=176, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:20.883:  
+2019-05-29 04:22:20.883:  mqtt_client|431 :: 
+2019-05-29 04:22:20.888:   packet-id=177, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":97,"CurrentTemperature":26.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:20.913:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:20.918:  [0mevent_handle|092 :: publish success, packet-id=176
+2019-05-29 04:22:20.926:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:20.930:  [0mevent_handle|092 :: publish success, packet-id=177
+2019-05-29 04:22:23.908:  mqtt_client|418 :: 
+2019-05-29 04:22:23.909:  *****************packet-id=178, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:23.922:  
+2019-05-29 04:22:23.923:  mqtt_client|431 :: 
+2019-05-29 04:22:23.927:   packet-id=179, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":98,"CurrentTemperature":27.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:23.952:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:23.957:  [0mevent_handle|092 :: publish success, packet-id=178
+2019-05-29 04:22:23.965:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:23.970:  [0mevent_handle|092 :: publish success, packet-id=179
+2019-05-29 04:22:26.978:  mqtt_client|418 :: 
+2019-05-29 04:22:26.978:  *****************packet-id=180, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id"tHumidity":99,"CurrentTemperature":28.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:26.991:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:26.996:  [0mevent_handle|092 :: publish success, packet-id=180
+2019-05-29 04:22:27.005:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:27.016:  [0mevent_handle|092 :: publish success, packet-id=181
+2019-05-29 04:22:29.985:  mqtt_client|418 :: 
+2019-05-29 04:22:29.986:  *****************packet-id=182, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:30.004:  
+2019-05-29 04:22:30.004:  mqtt_client|431 :: 
+2019-05-29 04:22:30.009:   packet-id=183, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity":100,"CurrentTemperature":29.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:30.034:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:30.037:  [0mevent_handle|092 :: publish success, packet-id=182
+2019-05-29 04:22:30.045:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:30.050:  [0mevent_handle|092 :: publish success, packet-id=183
+2019-05-29 04:22:33.025:  mqtt_client|418 :: 
+2019-05-29 04:22:33.025:  *****************packet-id=184, publish topic alarm Value msg={ "method":"thing.event.TempAlarm.post", "id":"123","params":{}}
+2019-05-29 04:22:33.043:  
+2019-05-29 04:22:33.043:  mqtt_client|431 :: 
+2019-05-29 04:22:33.047:   packet-id=185, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 0,"CurrentTemperature":30.00,"TempThreshold":30},"version":"1.0.0"}
+2019-05-29 04:22:33.077:  [1;36m[dbg] MQTTKeepalive(319): len = MQTTSerialize_pingreq() = 2
+2019-05-29 04:22:33.082:  [0m[1;33m[inf] iotx_mc_keepalive_sub(2987): send MQTT ping...
+2019-05-29 04:22:33.090:  [0m[1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:33.094:  [0mevent_handle|092 :: publish success, packet-id=184
+2019-05-29 04:22:33.103:  [1;36m[dbg] iotx_mc_cycle(1791): PUBACK
+2019-05-29 04:22:33.111:  [0mevent_handle|092 :: publish success, packet-id=185
+2019-05-29 04:22:33.116:  [1;33m[inf] iotx_mc_cycle(1828): receive ping response!
+2019-05-29 04:22:33.125:  [0mmqtt_client|431 :: 
+2019-05-29 04:22:36.068:   packet-id=186, publish topic msg={ "method":"thing.event.property.post", "id":"123","params":{"CurrentHumidity": 1,"CurrentTemperature":31.00,"TempThreshold":30},"version
+2019-05-29 04:22:36.097:  [1;36m[dbg] iotx_mc_cycle(1791: PUBACK
+2019-05-29 04:22:36.100:  [0mevent_handle|092 :: publish success, packet-id=186

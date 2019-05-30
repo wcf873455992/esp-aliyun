@@ -1,0 +1,33 @@
+2019-05-29 00:40:33.037:  
+2019-05-29 00:40:33.038:   ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+2019-05-29 00:40:33.043:  
+2019-05-29 00:40:33.062:  load 0x40100000, len 7196, room 16 
+2019-05-29 00:40:33.087:  tail 12
+2019-05-29 00:40:33.088:  chksum 0x23
+2019-05-29 00:40:33.088:  ho 0 tail 12 room 4
+2019-05-29 00:40:33.088:  load 0x3ffe8408, len 24, room 12 
+2019-05-29 00:40:33.089:  tail 12
+2019-05-29 00:40:33.089:  chksum 0x9a
+2019-05-29 00:40:33.089:  ho 0 tail 12 room 4
+2019-05-29 00:40:33.089:  load 0x3ffe8420, len 3544, room 12 
+2019-05-29 00:40:33.097:  tail 12
+2019-05-29 00:40:33.098:  chksum 0xad
+2019-05-29 00:40:33.098:  csum 0xad[0;32mI (65) boot: ESP-IDF v3.1-52-g4329d68 2nd stage bootloader[0m
+2019-05-29 00:40:33.110:  [0;32mI (65) boot: compile time 23:15:36[0m
+2019-05-29 00:40:33.115:  [0;32mI (75) qio_mode: Enabling default flash chip QIO[0m
+2019-05-29 00:40:33.123:  [0;32mI (75) boot: SPI Speed      : 40MHz[0m
+2019-05-29 00:40:33.132:  [0;32mI (79) boot: SPI Mode       : QIO[0m
+2019-05-29 00:40:33.136:  [0;32mI (85) boot: SPI Flash Size : 1MB[0m
+2019-05-29 00:40:33.140:  [0;32mI (92) boot: Partition Table:[0m
+2019-05-29 00:40:33.149:  [0;32mI (97) boot: ## Label            Usage          Type ST Offset   Length[0m
+2019-05-29 00:40:33.157:  [0;32mI (108) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+2019-05-29 00:40:33.170:  [0;32mI (120) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+2019-05-29 00:40:33.183:  [0;32mI (132) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+2019-05-29 00:40:33.195:  [0;32mI (143) boot: End of partition table[0m
+2019-05-29 00:40:33.200:  [0;32mI (150) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x82928 (534824) map[0m
+2019-05-29 00:40:33.381:  [0;32mI (343) esp_image: segment 1: paddr=0x00092940 vaddr=0x3ffe8000 size=0x00840 (  2112) load[0m
+2019-05-29 00:40:33.393:  [0;32mI (344) esp_image: segment 2: paddr=0x00093188 vaddr=0x3ffe8840 size=0x0011c (   284) load[0m
+2019-05-29 00:40:33.405:  [0;32mI (354) esp_image: segment 3: paddr=0x000932ac vaddr=0x40100000 size=0x075a4 ( 30116) load[0m
+2019-05-29 00:40:33.430:  [0;32mI (377) boot: Loaded app from partition at offset 0x10000[0m
+2019-05-29 00:40:33.466:  [0;32mI (426) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
+2019-05-29 00:40:33.479:  [0;32mI (436) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE[0m
